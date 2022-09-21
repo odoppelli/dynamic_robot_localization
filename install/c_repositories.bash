@@ -6,7 +6,7 @@ echo "##########################################################################
 
 catkin_ws_path=${1:-"$HOME/catkin_ws_drl"}
 repositories=${2:-$(cat <<-END
-	https://github.com/carlosmccosta|dynamic_robot_localization
+	https://github.com/odoppelli|dynamic_robot_localization
 	https://github.com/carlosmccosta|pose_to_tf_publisher
 	https://github.com/carlosmccosta|laserscan_to_pointcloud
 	https://github.com/carlosmccosta|mesh_to_pointcloud

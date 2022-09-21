@@ -61,6 +61,16 @@ sudo apt-get install libopenscenegraph-dev ${install_args}
 sudo apt-get install libopenthreads-dev ${install_args}
 
 
+# velodyne drivers
+sudo apt-get install ros-${ros_version}-velodyne ${install_args}
+sudo apt-get install ros-${ros_version}-velodyne-driver ${install_args}
+sudo apt-get install ros-${ros_version}-velodyne-msgs ${install_args}
+sudo apt-get install ros-${ros_version}-velodyne-pointcloud ${install_args}
+
+
+
+
+
 echo -e "\n\n"
 echo "----------------------------------------------------------------------------------------------------"
 echo ">>>>> Installation of dynamic_robot_localization dependencies finished"
